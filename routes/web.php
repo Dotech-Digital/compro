@@ -61,9 +61,9 @@ Route::group(['middleware' => ['web', 'auth']], function () {
     Route::post('product/product/list', [App\Http\Controllers\Product\ProductController::class, 'list'])->name('product.product.list');
     Route::get('product/product/{id}/delete', [App\Http\Controllers\Product\ProductController::class, 'confirm'])->name('product.product.confirm');
 
-    Route::resource('transaction', App\Http\Controllers\TransactionController::class);
-    Route::post('transaction/list', [App\Http\Controllers\TransactionController::class, 'list'])->name('transaction.list');
-    Route::get('transaction/{id}/delete', [App\Http\Controllers\TransactionController::class, 'confirm'])->name('transaction.confirm');
+    Route::resource('transaction/transaction', App\Http\Controllers\Transaction\TransactionController::class);
+    Route::post('transaction/transaction/list', [App\Http\Controllers\Transaction\TransactionController::class, 'list'])->name('transaction.list');
+    Route::get('transaction/transaction/{id}/delete', [App\Http\Controllers\Transaction\TransactionController::class, 'confirm'])->name('transaction.confirm');
 
     Route::resource('master/bank', App\Http\Controllers\Master\BankController::class);
     Route::post('master/bank/list', [App\Http\Controllers\Master\BankController::class, 'list'])->name('master.bank.list');
