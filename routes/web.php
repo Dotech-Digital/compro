@@ -17,10 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 //auth routes
 Auth::routes();
+Route::get('/', [App\Http\Controllers\DashboardController::class, 'landing'])->name('home');
 
 //middleware auth
 Route::group(['middleware' => ['web', 'auth']], function () {
-    Route::get('/', [App\Http\Controllers\DashboardController::class, 'index'])->name('home');
     Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
     Route::get('profile', [App\Http\Controllers\ProfileController::class, 'index'])->name('profile');
     Route::put('profile', [App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
@@ -68,6 +68,10 @@ Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource('master/bank', App\Http\Controllers\Master\BankController::class);
     Route::post('master/bank/list', [App\Http\Controllers\Master\BankController::class, 'list'])->name('master.bank.list');
     Route::get('master/bank/{id}/delete', [App\Http\Controllers\Master\BankController::class, 'confirm'])->name('master.bank.confirm');
+
+    Route::resource('transaction/payment', App\Http\Controllers\Transaction\PaymentController::class);
+    Route::post('transaction/payment/list', [App\Http\Controllers\Transaction\PaymentController::class, 'list'])->name('transaction.payment.list');
+    Route::get('transaction/payment/{id}/delete', [App\Http\Controllers\Transaction\PaymentController::class, 'confirm'])->name('transaction.payment.confirm');
 });
 
 Route::get('/optimize', function () {

@@ -20,6 +20,7 @@ return new class extends Migration
             $table->unsignedBigInteger('product_id')->index()->nullable();
             $table->foreign('product_id')->references('product_id')->on('products')->onDelete('cascade');
             $table->string('invoice_number');
+            $table->string('total')->nullable();
             $table->tinyInteger('status')->default(0);
             $table->timestamps();
             $table->softDeletes();

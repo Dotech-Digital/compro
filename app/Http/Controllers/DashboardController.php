@@ -26,4 +26,9 @@ class DashboardController extends Controller
             ->with('url', $this->url)
             ->with('breadcrumbs', $breadcrumbs);
     }
+
+    public function landing()
+    {
+        return view('landing');
+    }
 }
