@@ -144,6 +144,8 @@ class BankController extends Controller
             $destinationPath = public_path('assets/img/bank');
             $image->move($destinationPath, $name);
             $image = $name;
+        } else {
+            $image = Bank::find($id)->image;
         }
 
         $news = Bank::where('bank_id', $id)->update([
