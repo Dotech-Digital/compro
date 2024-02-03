@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id('bank_id');
             $table->string('name');
             $table->string('number');
+            $table->string('holder');
             $table->string('image')->nullable();
             $table->tinyInteger('is_active')->default(1);
             $table->timestamps();
