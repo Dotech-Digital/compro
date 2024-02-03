@@ -52,6 +52,14 @@ Route::group(['middleware' => ['web', 'auth']], function () {
 
     Route::resource('news', App\Http\Controllers\NewsController::class);
     Route::post('news/list', [App\Http\Controllers\NewsController::class, 'list'])->name('news.list');
+
+    Route::resource('product/category', App\Http\Controllers\Product\CategoryController::class);
+    Route::post('product/category/list', [App\Http\Controllers\Product\CategoryController::class, 'list'])->name('product.category.list');
+    Route::get('product/category/{id}/delete', [App\Http\Controllers\Product\CategoryController::class, 'confirm'])->name('product.category.confirm');
+
+    Route::resource('product/product', App\Http\Controllers\Product\ProductController::class);
+    Route::post('product/product/list', [App\Http\Controllers\Product\ProductController::class, 'list'])->name('product.product.list');
+    Route::get('product/product/{id}/delete', [App\Http\Controllers\Product\ProductController::class, 'confirm'])->name('product.product.confirm');
 });
 
 Route::get('/optimize', function () {

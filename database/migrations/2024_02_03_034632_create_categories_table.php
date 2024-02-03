@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('news', function (Blueprint $table) {
-            $table->id('news_id');
-            $table->unsignedBigInteger('user_id')->index()->nullable();
-            $table->foreign('user_id')->references('user_id')->on('users')->onDelete('cascade');
-            $table->string('title');
+        Schema::create('categories', function (Blueprint $table) {
+            $table->id('category_id');
+            $table->string('name');
             $table->string('slug');
-            $table->text('content');
-            $table->string('image')->nullable();
+            $table->tinyInteger('is_active')->default(1);
             $table->timestamps();
             $table->softDeletes();
         });
@@ -29,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('news');
+        Schema::dropIfExists('categories');
     }
 };
