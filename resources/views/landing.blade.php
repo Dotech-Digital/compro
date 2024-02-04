@@ -171,199 +171,7 @@
     </script>
 </head>
 
-<body><noscript>
-        <meta HTTP-EQUIV="refresh"
-            content="0;url='https://thememarch.com/demo/html/posing/index.html?PageSpeed=noscript'" />
-        <style>
-            <!--table,div,span,font,p{display:none}
-            -->
-        </style>
-        <div style="display:block">Please click <a
-                href="https://thememarch.com/demo/html/posing/index.html?PageSpeed=noscript">here</a> if you are not
-            redirected within a few seconds.</div>
-    </noscript>
-    <div class="cs-preloader cs-white_bg cs-center">
-        <div class="cs-preloader_in">
-            <script data-pagespeed-no-defer>
-                //<![CDATA[
-                (function() {
-                    for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
-                                if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
-                                b != Array.prototype && b != Object.prototype && (b[c] = a.value)
-                            }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global &&
-                            null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length -
-                        1; l++) {
-                        var m = k[l];
-                        m in h || (h[m] = {});
-                        h = h[m]
-                    }
-                    var n = k[k.length - 1],
-                        p = h[n],
-                        q = p ? p : function(b) {
-                            var c;
-                            if (null == this) throw new TypeError(
-                                "The 'this' value for String.prototype.repeat must not be null or undefined");
-                            c = this + "";
-                            if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
-                            b |= 0;
-                            for (var a = ""; b;)
-                                if (b & 1 && (a += c), b >>>= 1) c += c;
-                            return a
-                        };
-                    q != p && null != q && g(h, n, {
-                        configurable: !0,
-                        writable: !0,
-                        value: q
-                    });
-                    var t = this;
-
-                    function u(b, c) {
-                        var a = b.split("."),
-                            d = t;
-                        a[0] in d || !d.execScript || d.execScript("var " + a[0]);
-                        for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} :
-                            d[e] = c
-                    };
-
-                    function v(b) {
-                        var c = b.length;
-                        if (0 < c) {
-                            for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
-                            return a
-                        }
-                        return []
-                    };
-
-                    function w(b) {
-                        var c = window;
-                        if (c.addEventListener) c.addEventListener("load", b, !1);
-                        else if (c.attachEvent) c.attachEvent("onload", b);
-                        else {
-                            var a = c.onload;
-                            c.onload = function() {
-                                b.call(this);
-                                a && a.call(this)
-                            }
-                        }
-                    };
-                    var x;
-
-                    function y(b, c, a, d, e) {
-                        this.h = b;
-                        this.j = c;
-                        this.l = a;
-                        this.f = e;
-                        this.g = {
-                            height: window.innerHeight || document.documentElement.clientHeight || document.body
-                                .clientHeight,
-                            width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
-                        };
-                        this.i = d;
-                        this.b = {};
-                        this.a = [];
-                        this.c = {}
-                    }
-
-                    function z(b, c) {
-                        var a, d, e = c.getAttribute("data-pagespeed-url-hash");
-                        if (a = e && !(e in b.c))
-                            if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
-                            else {
-                                d = c.getBoundingClientRect();
-                                var f = document.body;
-                                a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f
-                                    .parentNode || f).scrollTop);
-                                d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f
-                                    .parentNode || f).scrollLeft);
-                                f = a.toString() + "," + d;
-                                b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
-                            } a && (b.a.push(e), b.c[e] = !0)
-                    }
-                    y.prototype.checkImageForCriticality = function(b) {
-                        b.getBoundingClientRect && z(this, b)
-                    };
-                    u("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
-                        x.checkImageForCriticality(b)
-                    });
-                    u("pagespeed.CriticalImages.checkCriticalImages", function() {
-                        A(x)
-                    });
-
-                    function A(b) {
-                        b.b = {};
-                        for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document
-                            .getElementsByTagName(c[d])));
-                        if (a.length && a[0].getBoundingClientRect) {
-                            for (d = 0; c = a[d]; ++d) z(b, c);
-                            a = "oh=" + b.l;
-                            b.f && (a += "&n=" + b.f);
-                            if (c = !!b.a.length)
-                                for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
-                                    var e = "," + encodeURIComponent(b.a[d]);
-                                    131072 >= a.length + e.length && (a += e)
-                                }
-                            b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a +=
-                                e), c = !0);
-                            C = a;
-                            if (c) {
-                                d = b.h;
-                                b = b.j;
-                                var f;
-                                if (window.XMLHttpRequest) f = new XMLHttpRequest;
-                                else if (window.ActiveXObject) try {
-                                    f = new ActiveXObject("Msxml2.XMLHTTP")
-                                } catch (r) {
-                                    try {
-                                        f = new ActiveXObject("Microsoft.XMLHTTP")
-                                    } catch (D) {}
-                                }
-                                f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f
-                                    .setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
-                            }
-                        }
-                    }
-
-                    function B() {
-                        var b = {},
-                            c;
-                        c = document.getElementsByTagName("IMG");
-                        if (!c.length) return {};
-                        var a = c[0];
-                        if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
-                        for (var d = 0; a = c[d]; ++d) {
-                            var e = a.getAttribute("data-pagespeed-url-hash");
-                            e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in
-                                b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
-                                rw: a.width,
-                                rh: a.height,
-                                ow: a.naturalWidth,
-                                oh: a.naturalHeight
-                            })
-                        }
-                        return b
-                    }
-                    var C = "";
-                    u("pagespeed.CriticalImages.getBeaconData", function() {
-                        return C
-                    });
-                    u("pagespeed.CriticalImages.Run", function(b, c, a, d, e, f) {
-                        var r = new y(b, c, a, e, f);
-                        x = r;
-                        d && w(function() {
-                            window.setTimeout(function() {
-                                A(r)
-                            }, 0)
-                        })
-                    });
-                })();
-                pagespeed.CriticalImages.Run('/mod_pagespeed_beacon', 'https://thememarch.com/demo/html/posing/index.html',
-                    'UMSeiHfgyf', false, false, 'Pkp7Zde5pPs');
-                //]]>
-            </script><img src="landingpage/assets/img/logo_mini.svg" alt="Logo"
-                data-pagespeed-url-hash="927060763" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
-
-        </div>
-    </div>
+<body>
     <header class="cs-site_header cs-style1 cs-sticky-header cs-primary_color cs-white_bg">
         <div class="cs-main_header">
             <div class="container">
@@ -459,10 +267,10 @@
         <div class="container">
             <div class="cs-seciton_heading cs-style1 text-center">
                 <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-                    Office & Inventory
+                    Jasa & Layanan Kami
                 </div>
                 <div class="cs-height_10 cs-height_lg_10"></div>
-                <h3 class="cs-section_title">Our best inventory</h3>
+                <h3 class="cs-section_title">Jasa dan Layanan yang Kami Berikan</h3>
             </div>
             <div class="cs-height_50 cs-height_lg_40"></div>
             <div class="row">
@@ -477,10 +285,9 @@
                         </div>
                         <div class="cs-iconbox_in">
                             <div class="cs-iconbox_number cs-primary_font">01</div>
-                            <h3 class="cs-iconbox_title">Recipe management & costing</h3>
+                            <h3 class="cs-iconbox_title">Pembuatan Website</h3>
                             <div class="cs-iconbox_subtitle">
-                                Lorem Ipsum is simply dummy text of the printing and formal
-                                typesetting
+                                Kami melayani pembuatan website sesuai kebutuhan anda
                             </div>
                         </div>
                     </div>
@@ -496,10 +303,9 @@
                         </div>
                         <div class="cs-iconbox_in">
                             <div class="cs-iconbox_number cs-primary_font">02</div>
-                            <h3 class="cs-iconbox_title">Stock management & inventory</h3>
+                            <h3 class="cs-iconbox_title">Pembuatan Aplikasi</h3>
                             <div class="cs-iconbox_subtitle">
-                                Lorem Ipsum is simply dummy text of the printing and formal
-                                typesetting
+                                Kami melayani pembuatan aplikasi sesuai kebutuhan anda
                             </div>
                         </div>
                     </div>
@@ -516,10 +322,9 @@
                         </div>
                         <div class="cs-iconbox_in">
                             <div class="cs-iconbox_number cs-primary_font">03</div>
-                            <h3 class="cs-iconbox_title">Purchase management systeme</h3>
+                            <h3 class="cs-iconbox_title">Maintenance Web</h3>
                             <div class="cs-iconbox_subtitle">
-                                Lorem Ipsum is simply dummy text of the printing and formal
-                                typesetting
+                                Kami melayani maintenance website sesuai kebutuhan anda
                             </div>
                         </div>
                     </div>
@@ -535,10 +340,9 @@
                         </div>
                         <div class="cs-iconbox_in">
                             <div class="cs-iconbox_number cs-primary_font">04</div>
-                            <h3 class="cs-iconbox_title">Powerful inventory reporting</h3>
+                            <h3 class="cs-iconbox_title">PT Perorangan</h3>
                             <div class="cs-iconbox_subtitle">
-                                Lorem Ipsum is simply dummy text of the printing and formal
-                                typesetting
+                                Kami melayani pembuatan PT Perorangan sesuai kebutuhan anda
                             </div>
                         </div>
                     </div>
@@ -564,20 +368,17 @@
                 <div class="col-xl-6">
                     <div class="cs-height_0 cs-height_lg_40"></div>
                     <div class="cs-seciton_heading cs-style1">
-                        <div class="cs-section_subtitle">About The POS</div>
+                        <div class="cs-section_subtitle">Tentang Dotech</div>
                         <div class="cs-height_10 cs-height_lg_10"></div>
                         <h3 class="cs-section_title">
-                            Best solution for point of sale about details
+                            Kami adalah perusahaan yang bergerak di bidang teknologi
                         </h3>
                     </div>
                     <div class="cs-height_20 cs-height_lg_20"></div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. <br />
-                        Lorem Ipsum the & been the industry's. It was popularised in the
-                        1960s <br />
-                        with the release of Letraset sheets containing Lorem Ipsum
-                        passages.
+                        Kami adalah perusahaan yang bergerak di bidang teknologi, kami
+                        melayani pembuatan website, pembuatan aplikasi, maintenance
+                        website, pembuatan PT Perorangan, dan masih banyak lagi.
                     </p>
                     <div class="cs-height_15 cs-height_lg_15"></div>
                     <div class="cs-list_1_wrap">
@@ -689,7 +490,7 @@
             </div>
         </div>
     </div>
-    <section class="cs-bg" data-src="landingpage/assets/img/feature_bg.svg">
+    {{-- <section class="cs-bg" data-src="landingpage/assets/img/feature_bg.svg">
         <div class="cs-height_135 cs-height_lg_0"></div>
         <div id="feature">
             <div class="cs-height_95 cs-height_lg_70"></div>
@@ -821,8 +622,8 @@
             </div>
             <div class="cs-height_75 cs-height_lg_45"></div>
         </div>
-    </section>
-    <section class="cs-gradient_bg_1">
+    </section> --}}
+    {{-- <section class="cs-gradient_bg_1">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
             <div class="cs-seciton_heading cs-style1 text-center">
@@ -947,10 +748,11 @@
             </div>
         </div>
         <div class="cs-height_75 cs-height_lg_70"></div>
-    </section>
+    </section> --}}
     <section class="cs-bg" data-src="landingpage/assets/img/feature_bg.svg" id="pricing">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
+            <div class="cs-height_95 cs-height_lg_70"></div>
             <div class="cs-seciton_heading cs-style1 text-center">
                 <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                     Pricing Plan
@@ -1186,7 +988,7 @@
             <div class="cs-height_75 cs-height_lg_45"></div>
         </div>
     </section>
-    <section id="faq" class="cs-gradient_bg_1">
+    {{-- <section id="faq" class="cs-gradient_bg_1">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="cs-seciton_heading cs-style1 text-center">
             <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
@@ -1325,8 +1127,8 @@
             </div>
         </div>
         <div class="cs-height_100 cs-height_lg_70"></div>
-    </section>
-    <section class="cs-bg" data-src="landingpage/assets/img/feature_bg.svg" id="news">
+    </section> --}}
+    <section class="cs-gradient_bg_1" id="news">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
             <div class="cs-seciton_heading cs-style1 text-center">
@@ -1564,7 +1366,7 @@
         </div>
         <div class="cs-height_100 cs-height_lg_70"></div>
     </section>
-    <section class="cs-gradient_bg_1" id="contact">
+    <section class="cs-bg" data-src="landingpage/assets/img/feature_bg.svg" id="contact">
         <div class="cs-height_95 cs-height_lg_70"></div>
         <div class="container">
             <div class="row">
@@ -1669,19 +1471,15 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="cs-footer_item">
                         <div class="cs-footer_widget_text">
-                            <img data-pagespeed-lazy-src="landingpage/assets/img/logo_footer.svg" alt="Logo"
-                                data-pagespeed-url-hash="543700067" src="/pagespeed_static/1.JiBnMqyl6S.gif"
-                                onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
-                                onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" />
+                            <img src="landingpage/assets/img/logo.png" alt="Logo" style="height: 80px" />
                             <p>
-                                On the other hand, we denounce <br />
-                                with righteous indignation and <br />
-                                dislike men who are so
+                                PT Dotech Digital Solution<br />
+                                Jl. Trunojoyo utara no 6 Ngawi, Jawa Timur
                             </p>
                         </div>
                         <div class="cs-height_30 cs-height_lg_30"></div>
                         <div class="cs-social_btns cs-style1">
-                            <a href="#"><img data-pagespeed-lazy-src="landingpage/assets/img/facebook.svg"
+                            {{-- <a href="#"><img data-pagespeed-lazy-src="landingpage/assets/img/facebook.svg"
                                     alt="Facebook" data-pagespeed-url-hash="3266811910"
                                     src="/pagespeed_static/1.JiBnMqyl6S.gif"
                                     onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
@@ -1690,10 +1488,10 @@
                                     alt="Twitter" data-pagespeed-url-hash="2552468623"
                                     src="/pagespeed_static/1.JiBnMqyl6S.gif"
                                     onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
-                                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" /></a>
-                            <a href="#"><img data-pagespeed-lazy-src="landingpage/assets/img/instagram.svg"
-                                    alt="Instagram" data-pagespeed-url-hash="205158582"
-                                    src="/pagespeed_static/1.JiBnMqyl6S.gif"
+                                    onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" /></a> --}}
+                            <a href="https://instagram.com/dotech.digital" target="_blank"><img
+                                    data-pagespeed-lazy-src="landingpage/assets/img/instagram.svg" alt="Instagram"
+                                    data-pagespeed-url-hash="205158582" src="/pagespeed_static/1.JiBnMqyl6S.gif"
                                     onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
                                     onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" /></a>
                         </div>
@@ -1701,21 +1499,19 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="cs-footer_item widget_nav_menu">
-                        <h2 class="cs-widget_title">Available POS</h2>
+                        <h2 class="cs-widget_title">Jasa & Layanan</h2>
                         <ul class="menu">
-                            <li><a href="#">Food Delivery</a></li>
-                            <li><a href="#">Furniture Store</a></li>
-                            <li><a href="#">Coffee Shop</a></li>
-                            <li><a href="#">Clothing Store</a></li>
-                            <li><a href="#">eCommerce</a></li>
+                            <li><a href="#">Pembuatan Website</a></li>
+                            <li><a href="#">Pembuatan Aplikasi</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">PT Perorangan</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="cs-footer_item widget_nav_menu">
-                        <h2 class="cs-widget_title">Company</h2>
+                        <h2 class="cs-widget_title">Perusahaan</h2>
                         <ul class="menu">
-                            <li><a href="#">Features</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms of Use</a></li>
@@ -1724,11 +1520,10 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="cs-footer_item widget_nav_menu">
-                        <h2 class="cs-widget_title">Subscribe us</h2>
+                        <h2 class="cs-widget_title">Berlangganan</h2>
                         <form class="cs-newsletter">
                             <div class="cs-newsletter_text">
-                                Get Business news, tip and solutions to your problems from our
-                                experts.
+                                Dapatkan informasi terbaru dari kami
                             </div>
                             <div class="cs-height_20 cs-height_lg_20"></div>
                             <input type="text" class="cs-form_field" placeholder="Enter your email" />
@@ -1743,7 +1538,7 @@
         </div>
         <div class="cs-height_40 cs-height_lg_30"></div>
         <div class="cs-copyright text-center">
-            <div class="container">Copyright 2022. Created by Thememarch.</div>
+            <div class="container">Copyright {{ date('Y') }}. Created by Thememarch.</div>
         </div>
     </footer>
 
