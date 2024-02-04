@@ -370,13 +370,13 @@
                 <div class="cs-main_header_in">
                     <div class="cs-main_header_left">
                         <a class="cs-site_branding cs-accent_color" href="{{ route('home') }}">
-                            <img src="landingpage/assets/img/logo.svg" alt="Logo" data-pagespeed-url-hash="39491623"
+                            <img src="landingpage/assets/img/logo.jpg" alt="Logo" data-pagespeed-url-hash="39491623"
                                 onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
                         </a>
 
 
                     </div>
-                    <div class="cs-main_header_center">
+                    <div class="cs-main_header_right">
                         <div class="cs-nav">
                             <ul class="cs-nav_list">
                                 <li><a href="#home" class="cs-smoth_scroll">Home</a></li>
@@ -394,13 +394,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="cs-main_header_right">
-                        <div class="cs-toolbox">
-                            <a class="cs-link cs-modal_btn" href="{{ route('login') }}">Login</a>
-                            <a class="cs-btn cs-color1 cs-modal_btn" href={{ route('register') }}><span>Start For
-                                    Free</span></a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -411,21 +405,19 @@
 
             <div class="container">
                 <div class="cs-hero_img">
-                    <div class="cs-hero_img_bg cs-bg" data-src="landingpage/assets/img/hero_img_bg.png"></div>
-                    <img src="landingpage/assets/img/hero_img.png" alt="Hero Image" class="wow fadeInRight"
-                        data-wow-duration="1s" data-wow-delay="0.4s" data-pagespeed-url-hash="540680739"
-                        onload="pagespeed.CriticalImages.checkImageForCriticality(this);" />
+                    <div class="cs-hero_img_bg cs-bg" data-src="landingpage/assets/img/hero_2.svg"></div>
+
                 </div>
                 <div class="cs-hero_text">
                     <div class="cs-hero_secondary_title">
-                        Free Forever For All Users.
+                        Selamat datang pada era digital yang lebih modern
                     </div>
-                    <h1 class="cs-hero_title">Easy-to-use <br />Point of Sale</h1>
+                    <h3 class="">PT Dotech Digital Solution <br />siap membantu dan melayani</h3>
                     <div class="cs-hero_subtitle">
-                        You may start selling in a matter of minutes and easy to
-                        <br />use. Appropriate for all devices.
+                        Kami menawarkan berbagai jasa dan solusi digital yang dapat
+                        <br />membantu bisnis anda
                     </div>
-                    <a href="#" class="cs-btn"><span>Start Free Trial</span></a>
+                    <a href="#about" class="cs-btn cs-smoth_scroll"><span>Pelajari Lebih Lanjut</span></a>
                 </div>
                 <div class="cs-hero_shapes">
                     <div class="cs-shape cs-shape_position1">
