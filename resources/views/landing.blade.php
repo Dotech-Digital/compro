@@ -439,9 +439,9 @@
                 </div>
                 <div class="cs-funfact_right">
                     <div class="cs-funfact_number cs-primary_font">
-                        <span data-count-to="320" class="odometer"></span>+
+                        <span data-count-to="5" class="odometer"></span>
                     </div>
-                    <h2 class="cs-funfact_title">Retail stores</h2>
+                    <h2 class="cs-funfact_title">Layanan</h2>
                 </div>
             </div>
             <div class="cs-funfact cs-style1">
@@ -453,9 +453,9 @@
                 </div>
                 <div class="cs-funfact_right">
                     <div class="cs-funfact_number cs-primary_font">
-                        <span data-count-to="92" class="odometer"></span>k
+                        <span data-count-to="3" class="odometer"></span>
                     </div>
-                    <h2 class="cs-funfact_title">Customer</h2>
+                    <h2 class="cs-funfact_title">Pelanggan</h2>
                 </div>
             </div>
             <div class="cs-funfact cs-style1">
@@ -467,9 +467,9 @@
                 </div>
                 <div class="cs-funfact_right">
                     <div class="cs-funfact_number cs-primary_font">
-                        <span data-count-to="5" class="odometer"></span>k
+                        <span data-count-to="3" class="odometer"></span>
                     </div>
-                    <h2 class="cs-funfact_title">Positive Rating</h2>
+                    <h2 class="cs-funfact_title">Transaksi</h2>
                 </div>
             </div>
             <div class="cs-funfact cs-style1">
@@ -481,9 +481,9 @@
                 </div>
                 <div class="cs-funfact_right">
                     <div class="cs-funfact_number cs-primary_font">
-                        <span data-count-to="20" class="odometer"></span>+
+                        <span data-count-to="0" class="odometer"></span>
                     </div>
-                    <h2 class="cs-funfact_title">Award Winning</h2>
+                    <h2 class="cs-funfact_title">Komplain</h2>
                 </div>
             </div>
         </div>
@@ -1371,18 +1371,16 @@
                 <div class="col-xl-5 col-lg-8">
                     <div class="cs-seciton_heading cs-style1">
                         <div class="cs-section_subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-                            Contract Us
+                            Hubungi Kami
                         </div>
                         <div class="cs-height_10 cs-height_lg_10"></div>
                         <h3 class="cs-section_title">
-                            If you have any quiries, fill free to contact us
+                            Jika ada pertanyaan, jangan ragu untuk menghubungi kami
                         </h3>
                     </div>
                     <div class="cs-height_20 cs-height_lg_20"></div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry.Lorem Ipsum is simply dummy text of the Lorem Ipsum is
-                        simply dummy text of the printing and typesetting.
+                        Kami siap membantu anda, jika ada pertanyaan jangan ragu untuk menghubungi kami
                     </p>
                     <div class="cs-height_15 cs-height_lg_15"></div>
                     <div class="cs-iconbox cs-style3">
@@ -1394,9 +1392,9 @@
                                 onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" />
                         </div>
                         <div class="cs-iconbox_right">
-                            <h2 class="cs-iconbox_title">Address</h2>
+                            <h2 class="cs-iconbox_title">Alamat</h2>
                             <div class="cs-iconbox_subtitle">
-                                4117 Leroy LaneHarold, KY 41635,
+                                Jl. Trunojoyo utara no 6 Ngawi, Jawa Timur
                             </div>
                         </div>
                     </div>
@@ -1410,8 +1408,8 @@
                                 onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" />
                         </div>
                         <div class="cs-iconbox_right">
-                            <h2 class="cs-iconbox_title">Contract Number</h2>
-                            <div class="cs-iconbox_subtitle">+606-243-4966</div>
+                            <h2 class="cs-iconbox_title">Telepon</h2>
+                            <div class="cs-iconbox_subtitle">081359569879</div>
                         </div>
                     </div>
                     <div class="cs-height_30 cs-height_lg_30"></div>
@@ -1424,35 +1422,35 @@
                                 onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" />
                         </div>
                         <div class="cs-iconbox_right">
-                            <h2 class="cs-iconbox_title">Email Address</h2>
-                            <div class="cs-iconbox_subtitle">demo@gmail.com</div>
+                            <h2 class="cs-iconbox_title">Email</h2>
+                            <div class="cs-iconbox_subtitle">support@dotech.cfd</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-6 offset-xl-1">
                     <div class="cs-height_40 cs-height_lg_40"></div>
                     <form class="cs-contact_form">
-                        <h2 class="cs-contact_form_title">Please fill up the form</h2>
+                        <h2 class="cs-contact_form_title">Isi form dibawah ini</h2>
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" class="cs-form_field" placeholder="Name" />
+                                <input type="text" class="cs-form_field" placeholder="Nama" />
                                 <div class="cs-height_25 cs-height_lg_25"></div>
                             </div>
                             <div class="col-lg-6">
-                                <input type="text" class="cs-form_field" placeholder="Email address" />
+                                <input type="text" class="cs-form_field" placeholder="Email" />
                                 <div class="cs-height_25 cs-height_lg_25"></div>
                             </div>
                             <div class="col-lg-12">
-                                <input type="text" class="cs-form_field" placeholder="Phone number" />
+                                <input type="text" class="cs-form_field" placeholder="No HP" />
                                 <div class="cs-height_25 cs-height_lg_25"></div>
                             </div>
                             <div class="col-lg-12">
-                                <textarea cols="30" rows="5" class="cs-form_field" placeholder="Write your massage"></textarea>
+                                <textarea cols="30" rows="5" class="cs-form_field" placeholder="Kebutuhan / Keperluan"></textarea>
                                 <div class="cs-height_25 cs-height_lg_25"></div>
                             </div>
                             <div class="col-lg-12">
                                 <button class="cs-btn cs-size_md">
-                                    <span>Send Message</span>
+                                    <span>Kirim</span>
                                 </button>
                             </div>
                         </div>
