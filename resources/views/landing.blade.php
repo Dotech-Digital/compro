@@ -392,15 +392,13 @@
                                         onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);" />
                                 </span>
                                 <div class="cs-list_right">
-                                    <h3>Other point of sale information</h3>
+                                    <h3>Legalitas</h3>
                                     <p>
-                                        But I must explain to you how all this mistaken in
-                                        denouncing pleasure and praising pain was born and I will
-                                        give.
+                                        Nomor AHU-006109.AH.01.30.Tahun 2024
                                     </p>
                                 </div>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <span class="cs-list_icon">
                                     <img data-pagespeed-lazy-src="landingpage/assets/img/icons/tick.svg"
                                         alt="Tick" data-pagespeed-url-hash="3871789954"
@@ -415,7 +413,7 @@
                                         qui blanditiis praesentium voluptatum deleniti at.
                                     </p>
                                 </div>
-                            </li>
+                            </li> --}}
                         </ul>
                         <div class="cs-list_img wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                             <img data-pagespeed-lazy-src="landingpage/assets/img/about_img_2.png" alt="About"
