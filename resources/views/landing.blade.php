@@ -188,16 +188,13 @@
                         <div class="cs-nav">
                             <ul class="cs-nav_list">
                                 <li><a href="#home" class="cs-smoth_scroll">Home</a></li>
-                                <li><a href="#about" class="cs-smoth_scroll">About</a></li>
+                                <li><a href="#about" class="cs-smoth_scroll">Tentang</a></li>
                                 <li>
-                                    <a href="#feature" class="cs-smoth_scroll">Feature</a>
+                                    <a href="#pricing" class="cs-smoth_scroll">Harga</a>
                                 </li>
+                                <li><a href="#news" class="cs-smoth_scroll">Berita</a></li>
                                 <li>
-                                    <a href="#pricing" class="cs-smoth_scroll">Pricing</a>
-                                </li>
-                                <li><a href="#news" class="cs-smoth_scroll">News</a></li>
-                                <li>
-                                    <a href="#contact" class="cs-smoth_scroll">Contact</a>
+                                    <a href="#contact" class="cs-smoth_scroll">Hubungi Kami</a>
                                 </li>
                             </ul>
                         </div>
