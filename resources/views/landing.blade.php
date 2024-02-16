@@ -337,9 +337,9 @@
                         </div>
                         <div class="cs-iconbox_in">
                             <div class="cs-iconbox_number cs-primary_font">04</div>
-                            <h3 class="cs-iconbox_title">PT Perorangan</h3>
+                            <h3 class="cs-iconbox_title">OTP Whatsapp</h3>
                             <div class="cs-iconbox_subtitle">
-                                Kami melayani pembuatan PT Perorangan sesuai kebutuhan anda
+                                Kami melayani pembuatan OTP Whatsapp sesuai kebutuhan anda
                             </div>
                         </div>
                     </div>
@@ -375,7 +375,8 @@
                     <p>
                         Kami adalah perusahaan yang bergerak di bidang teknologi, kami
                         melayani pembuatan website, pembuatan aplikasi, maintenance
-                        website, pembuatan PT Perorangan, dan masih banyak lagi.
+                        website, dan jasa OTP whatsapp. Kami juga menawarkan solusi
+                        digital yang dapat membantu bisnis anda.
                     </p>
                     <div class="cs-height_15 cs-height_lg_15"></div>
                     <div class="cs-list_1_wrap">
@@ -1330,7 +1331,7 @@
                             <li><a href="#">Pembuatan Website</a></li>
                             <li><a href="#">Pembuatan Aplikasi</a></li>
                             <li><a href="#">Maintenance</a></li>
-                            <li><a href="#">PT Perorangan</a></li>
+                            <li><a href="#">OTP Whatsapp</a></li>
                         </ul>
                     </div>
                 </div>
