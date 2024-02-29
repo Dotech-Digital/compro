@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Master\News;
+use App\Models\Product\Product;
 use App\Models\Setting\Menu;
 use Illuminate\Http\Request;
 
@@ -31,6 +32,9 @@ class DashboardController extends Controller
     public function landing()
     {
         $news = News::with('user')->get();
-        return view('landing')->with('news', $news);
+        $products = Product::all();
+        return view('landing')
+            ->with('news', $news)
+            ->with('products', $products);
     }
 }
