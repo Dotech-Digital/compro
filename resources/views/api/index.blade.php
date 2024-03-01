@@ -46,34 +46,26 @@
                             </div>
                             <!-- /.card-header -->
                             <div class="card-body">
-                                <div class="form-group required row mb-2">
-                                    <label class="col-sm-3 control-label col-form-label">API Token</label>
-                                    <div class="col-sm-9">
-                                        <div class="input-group input-group-sm">
-                                            <input type="text" class="form-control form-control-sm" id="api_token"
-                                                name="api_token" readonly
-                                                value="{{ isset($user->api_token) ? $user->api_token : '' }}" disabled />
-                                            <span class="input-group-append">
-                                                <button data-key="{{ $user->api_token }}"
-                                                    class="btn btn-info btn-flat tooltips" data-placement="left"
-                                                    data-original-title="Copy Token" id="copy">
-                                                    <i class="fas fa-copy"></i>
-                                                </button>
-                                            </span>
-                                        </div>
+                                <div class="form-group required mb-2">
+                                    <label class="control-label col-form-label">API Token</label>
+                                    <div class="input-group input-group-sm">
+                                        <input type="text" class="form-control form-control-sm" id="api_token"
+                                            name="api_token" readonly
+                                            value="{{ isset($user->api_token) ? $user->api_token : '' }}" disabled />
+                                        <span class="input-group-append">
+                                            <button data-key="{{ $user->api_token }}" class="btn btn-info btn-flat tooltips"
+                                                data-placement="left" data-original-title="Copy Token" id="copy">
+                                                <i class="fas fa-copy"></i>
+                                            </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
                             <!-- /.card-body -->
                             <div class="card-footer">
-                                {{-- <form method="POST" action="{{ route('api.update', $user->user_id) }}"> --}}
-                                @csrf
-                                @method('PUT')
                                 <a href="#" data-block="body" data-url="{{ $url }}/{{ $user->user_id }}"
                                     class="ajax_modal btn btn-danger tooltips text-light" data-placement="left"
                                     data-original-title="Regenerate">Regenerate</i></a>
-                                {{-- <button type="submit" data-dismiss="modal" class="btn btn-danger">Regenerate</button> --}}
-                                {{-- </form> --}}
                             </div>
                         </div>
                         <!-- /.card -->
