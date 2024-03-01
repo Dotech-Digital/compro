@@ -72,6 +72,10 @@ Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource('transaction/payment', App\Http\Controllers\Transaction\PaymentController::class);
     Route::post('transaction/payment/list', [App\Http\Controllers\Transaction\PaymentController::class, 'list'])->name('transaction.payment.list');
     Route::get('transaction/payment/{id}/delete', [App\Http\Controllers\Transaction\PaymentController::class, 'confirm'])->name('transaction.payment.confirm');
+
+    Route::resource('device', App\Http\Controllers\DeviceController::class);
+    Route::post('device/list', [App\Http\Controllers\DeviceController::class, 'list'])->name('device.list');
+    Route::get('device/{id}/delete', [App\Http\Controllers\DeviceController::class, 'confirm'])->name('device.confirm');
 });
 
 Route::get('/optimize', function () {

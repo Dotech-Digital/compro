@@ -758,13 +758,13 @@
             </div>
             <div class="cs-height_50 cs-height_lg_40"></div>
             <div class="row">
-                @foreach ($products as $product)
+                @foreach ($products as $key => $product)
                     <div class="col-lg-4">
                         <div class="cs-pricing_table cs-style1">
                             <div class="cs-pricing_head">
                                 <div class="cs-pricing_heading">
                                     <div class="cs-pricing_icon cs-center">
-                                        <img data-pagespeed-lazy-src="{{ asset('assets/img/product/' . $product->image) }}"
+                                        <img data-pagespeed-lazy-src="landingpage/assets/img/icons/pricing_icon_{{ $key + 1 }}.svg"
                                             alt="Icon" data-pagespeed-url-hash="559393397"
                                             src="/pagespeed_static/1.JiBnMqyl6S.gif"
                                             onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
@@ -832,7 +832,15 @@
                                     </li>
                                 </ul>
                                 <div class="cs-pricing_btn">
-                                    <a href="#" class="cs-btn cs-size_md"><span>Buy Now</span></a>
+                                    <a href="#" class="cs-btn cs-size_md">
+                                        <span>
+                                            @if ($product->price == 0)
+                                                Coba Sekarang
+                                            @else
+                                                Beli
+                                            @endif
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
