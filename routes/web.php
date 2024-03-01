@@ -76,6 +76,8 @@ Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource('device', App\Http\Controllers\DeviceController::class);
     Route::post('device/list', [App\Http\Controllers\DeviceController::class, 'list'])->name('device.list');
     Route::get('device/{id}/delete', [App\Http\Controllers\DeviceController::class, 'confirm'])->name('device.confirm');
+
+    Route::resource('api', App\Http\Controllers\ApiController::class);
 });
 
 Route::get('/optimize', function () {
