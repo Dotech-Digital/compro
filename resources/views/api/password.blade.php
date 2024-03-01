@@ -14,7 +14,7 @@
                 <div class="form-group required row mb-2">
                     <label class="col-sm-3 control-label col-form-label">Password</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control form-control-sm" id="password" name="password" />
+                        <input type="password" class="form-control form-control-sm" id="password" name="password" />
                     </div>
                 </div>
             </div>
